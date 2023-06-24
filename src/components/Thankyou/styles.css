@@ -1,0 +1,31 @@
+.app__border {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin-bottom: 4%;
+}
+.app__border p {
+    width: 100%;
+    margin-left: 5%;
+    color: hsla(25, 97%, 53%,0.9);
+}
+.app__card-h1 {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+.app__card-p {
+    text-align: center;
+    margin-right: -10%;
+}
+@media screen and (max-width: 400px){
+    .app__border{
+        width: 60%;
+    }
+    .app__card-p {
+        font-size: 14px;
+    }
+}
